@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <body>
+
+<h2>An Unordered HTML List</h2>
+
+<ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>  
+
+<h2>An Ordered HTML List</h2>
+
+<ol>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol> 
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+    <body>
+        <h2>HTML Forms</h2>
+<Form action="/action_page.php">
+    <input type="Mark as complete" value="Mark as complete">
+</Form>        
+<p>If you click on "Mark as complete" button, the form will be sent to a page called */action_page". </p>
+<form>
+  <div class="nativeDatePicker">
+    <label for="month-visit">when the item was added to the list?</label>
+    <input type="month" id="month-visit" name="month-visit">
+    <span class="validity"></span>
+  </div>
+  <p class="fallbackLabel">Display date and time?</p>
+  <div class="fallbackDatePicker">
+    <div>
+      <span>
+        <label for="month">Month:</label>
+        <select id="month" name="month">
+          <option selected>January</option>
+          <option>February</option>
+          <option>March</option>
+          <option>April</option>
+          <option>May</option>
+          <option>June</option>
+          <option>July</option>
+          <option>August</option>
+          <option>September</option>
+          <option>October</option>
+          <option>November</option>
+          <option>December</option>
+        </select>
+      </span>
+      <span>
+        <label for="year">Year:</label>
+        <select id="year" name="year">
+        </select>
+      </span>
+    </div>
+  </div>
+</form>
